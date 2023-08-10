@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>QR Code Generator</title>
+</head>
+
+<body>
+
+    <div class="mai-box">
+        <!--  -->
+
+        <header class="qr-header">
+
+            <h1>QR Code Generator</h1>
+            <!--  -->
+
+            <input type="text" name="url-text" id="qr-url-text" placeholder="Type URL or Text">
+            <!--  -->
+
+            <div class="select-box">
+                <label for="sizes">Select sizes</label>
+                <select name="" id="sizes">
+                    <option value="100">100x100</option>
+                    <option value="200">200x200</option>
+                    <option value="300">300x300</option>
+                    <option value="400">400x400</option>
+                </select>
+            </div>
+        </header>
+        <!--  -->
+        <div class="qr-body"></div>
+        <!--  -->
+        <footer class="qr-footer">
+            <a href="" id="generate-btn">Generate</a>
+            <a href="" id="downlode-btn" download="QR code.png">Downlode</a>
+        </footer>
+    </div>
+
+
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(1, 38, 70); */
+    background-image: url(./img/background-img.webp);
+}
+
+.mai-box {
+    width: 30rem;
+    background-color: rgb(52, 152, 233);
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    border-radius: 10px;
+}
+
+.mai-box h1 {
+    margin: 2rem;
+    margin-left: 6rem;
+    /* font-weight: 900; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mai-box input {
+    margin-left: 3.5rem;
+    width: 22rem;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+.mai-box .select-box {
+    margin-left: 15.3rem;
+    margin-top: 2rem;
+}
+
+.mai-box label {
+    color: white;
+    font-weight: 900;
+    font-size: 1.1rem;
+    margin-left: -190px;
+}
+
+.mai-box .select-box select {
+    /* margin: 1.5rem; */
+    margin-left: 190px;
+    width: 6rem;
+    height: 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 14px 36px;
+    margin-inline-start: 1rem;
+    border-radius: 5px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+.qr-body {
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+}
+
+.qr-body img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-block: 10px;
+    padding: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+@media only screen and (max-width: 280px) {
+
+    .mai-box {
+        width: 18rem;
+        margin-left: 3px;
+    }
+
+    .mai-box input {
+        margin-left: 1rem;
+        width: 15rem;
+    }
+
+    footer a {
+        font-size: 1.5rem;
+        padding: 8px 7px;
+    }
+
+    .mai-box label {
+        margin-left: -227px;
+    }
+
+    .mai-box .select-box select {
+        margin-left: 69px;
+    }
+
+    .mai-box h1 {
+        margin: 2rem;
+        margin-left: 3rem;
+        font-size: 22px;
+    }
+
+    .qr-body img {
+        padding: 5px;
+    }
+}
+
+
+/* @media only screen and (max-width: 500px){
+    .mai-box {
+        width: 26rem;
+    }
+
+    .mai-box input {
+        margin-left: 1.5rem;
+    }
+
+    .mai-box .select-box select {
+        margin-left: 140px;
+    }
+
+    .mai-box h1 {
+        margin-left: 5rem;
+    }
+} */

@@ -97,18 +97,19 @@ footer a {
 @media only screen and (max-width: 250px) {
 
     .mai-box {
-        width: 18rem;
+        width: 14rem;
         margin-left: 3px;
     }
 
     .mai-box input {
-        margin-left: 1rem;
-        width: 15rem;
+        margin-left: 0.9rem;
+        width: 11rem;
     }
 
     footer a {
-        font-size: 1.5rem;
-        padding: 8px 7px;
+        font-size: 1rem;
+        padding: 10px 13px;
+        margin-left: 6px;
     }
 
     .mai-box label {
@@ -116,13 +117,12 @@ footer a {
     }
 
     .mai-box .select-box select {
-        margin-left: 69px;
+        margin-left: 11px;
     }
 
     .mai-box h1 {
-        margin: 2rem;
-        margin-left: 3rem;
-        font-size: 22px;
+        font-size: 14px;
+        font-weight: 600;
     }
 
     .qr-body img {

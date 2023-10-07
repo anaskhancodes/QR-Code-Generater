@@ -58,5 +58,6 @@ function generateQr() {
         width: size,
         colorLight: "#fff",
         colorDark: "#000"
+        // colorDark: "#FFAB00"
     })
 }   
